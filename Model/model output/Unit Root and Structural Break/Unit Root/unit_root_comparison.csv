@@ -1,0 +1,6 @@
+Hub,ADF_drift_reject,PP_reject,KPSS_level_reject,ADF_trend_reject,KPSS_trend_reject,ZA_reject_5pct,ZA_break_date,ZA_interpretation,ADF_drift_result,ADF_trend_result,PP_result,KPSS_level_result,KPSS_trend_result,ZA_result,Consensus
+JKM,FALSE,FALSE,TRUE,FALSE,TRUE,NA,2021-02-25,NA,Unit root,Unit root,Unit root,Non-stationary,Non-stationary,NA,"I(1), drift tests agree"
+NBP,FALSE,FALSE,TRUE,FALSE,TRUE,NA,2020-07-30,NA,Unit root,Unit root,Unit root,Non-stationary,Non-stationary,NA,"I(1), drift tests agree"
+TTF,FALSE,FALSE,TRUE,FALSE,TRUE,NA,2021-03-03,NA,Unit root,Unit root,Unit root,Non-stationary,Non-stationary,NA,"I(1), drift tests agree"
+HH,FALSE,FALSE,TRUE,FALSE,TRUE,NA,2022-12-15,NA,Unit root,Unit root,Unit root,Non-stationary,Non-stationary,NA,"I(1), drift tests agree"
+Brent_MA3,FALSE,FALSE,TRUE,FALSE,TRUE,NA,2021-05-20,NA,Unit root,Unit root,Unit root,Non-stationary,Non-stationary,NA,"I(1), drift tests agree"

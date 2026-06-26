@@ -1,0 +1,7 @@
+Pair,Hub_A,Hub_B,Diagnostic_type,ADF_stat,ADF_1pct,ADF_5pct,ADF_10pct,ADF_lag,ADF_reject_5pct,PP_stat,PP_p,PP_reject_5pct,KPSS_stat,KPSS_p,KPSS_reject_5pct,Conclusion
+JKM - NBP,JKM,NBP,"Gas gas spread, beta equals 1",-9.894098968369027,-3.43,-2.86,-2.57,20,TRUE,-242.36570594065418,0.01,TRUE,5.1571388601156745,0.01,TRUE,"Mixed, see individual results"
+JKM - TTF,JKM,TTF,"Gas gas spread, beta equals 1",-3.9385589321664565,-3.43,-2.86,-2.57,20,TRUE,-98.44690328936669,0.01,TRUE,7.863139528285547,0.01,TRUE,"Mixed, see individual results"
+JKM - HH,JKM,HH,"Gas gas spread, beta equals 1",-2.8805205014645456,-3.43,-2.86,-2.57,20,TRUE,-28.774733909269703,0.010502130649839363,TRUE,11.729938968712117,0.01,TRUE,"Mixed, see individual results"
+NBP - TTF,NBP,TTF,"Gas gas spread, beta equals 1",-3.4617642696801414,-3.43,-2.86,-2.57,20,TRUE,-28.708613772563332,0.010743674603596185,TRUE,3.7848085403884015,0.01,TRUE,"Mixed, see individual results"
+NBP - HH,NBP,HH,"Gas gas spread, beta equals 1",-2.4797792095908084,-3.43,-2.86,-2.57,20,FALSE,-29.333906688252863,0.01,TRUE,13.356951044773295,0.01,TRUE,"Mixed, see individual results"
+TTF - HH,TTF,HH,"Gas gas spread, beta equals 1",-2.2555026087683716,-3.43,-2.86,-2.57,20,FALSE,-22.625423484472194,0.0415202271429128,TRUE,14.280192831492563,0.01,TRUE,"Mixed, see individual results"

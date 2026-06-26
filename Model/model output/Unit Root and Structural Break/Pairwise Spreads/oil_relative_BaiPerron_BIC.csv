@@ -1,0 +1,5 @@
+Pair,Hub_A,Hub_B,Type,Breaks_BIC,BIC_value,BP_specification
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,5,318.93017043510986,relative price on intercept only
+NBP - Brent_MA3,NBP,Brent_MA3,Gas-Oil,4,554.9126745473566,relative price on intercept only
+TTF - Brent_MA3,TTF,Brent_MA3,Gas-Oil,4,247.94289778076848,relative price on intercept only
+HH - Brent_MA3,HH,Brent_MA3,Gas-Oil,4,-1857.9668555807432,relative price on intercept only

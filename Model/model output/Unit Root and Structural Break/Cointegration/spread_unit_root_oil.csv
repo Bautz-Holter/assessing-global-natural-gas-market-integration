@@ -1,0 +1,5 @@
+Pair,Hub_A,Hub_B,Diagnostic_type,ADF_stat,ADF_1pct,ADF_5pct,ADF_10pct,ADF_lag,ADF_reject_5pct,PP_stat,PP_p,PP_reject_5pct,KPSS_stat,KPSS_p,KPSS_reject_5pct,Conclusion
+JKM - Brent_MA3,JKM,Brent_MA3,Gas oil relative price using Brent_MA3,-2.0581546126747994,-3.43,-2.86,-2.57,20,FALSE,-12.133429463424287,0.43300008130625656,FALSE,5.8528786080782,0.01,TRUE,"I(1), non-stationary gas oil relative price"
+NBP - Brent_MA3,NBP,Brent_MA3,Gas oil relative price using Brent_MA3,-2.2580131300775386,-3.43,-2.86,-2.57,20,FALSE,-16.008102279044827,0.21689797028126934,FALSE,7.446919416489991,0.01,TRUE,"I(1), non-stationary gas oil relative price"
+TTF - Brent_MA3,TTF,Brent_MA3,Gas oil relative price using Brent_MA3,-1.806345232896939,-3.43,-2.86,-2.57,20,FALSE,-11.320226879995202,0.47835482565048426,FALSE,8.443041759608539,0.01,TRUE,"I(1), non-stationary gas oil relative price"
+HH - Brent_MA3,HH,Brent_MA3,Gas oil relative price using Brent_MA3,-3.350345014775092,-3.43,-2.86,-2.57,20,TRUE,-24.27263658202047,0.029041340040274338,TRUE,3.4139811094566435,0.01,TRUE,"Mixed, see individual results"

@@ -1,0 +1,6 @@
+Series,ADF_reject_5pct,PP_reject_5pct,ZA_intercept_reject_5pct,ZA_trend_reject_5pct,Integration_Order,Classification,Interpretation,ZA_intercept_break_date,ZA_trend_break_date
+JKM,FALSE,FALSE,FALSE,FALSE,I(1),Space_3_Non_Stationary,Neither baseline nor break-aware tests reject unit root null,2021-02-25,2021-12-08
+NBP,FALSE,FALSE,FALSE,FALSE,I(1),Space_3_Non_Stationary,Neither baseline nor break-aware tests reject unit root null,2020-07-30,2021-12-13
+TTF,FALSE,FALSE,FALSE,FALSE,I(1),Space_3_Non_Stationary,Neither baseline nor break-aware tests reject unit root null,2021-03-03,2022-02-24
+HH,FALSE,FALSE,FALSE,FALSE,I(1),Space_3_Non_Stationary,Neither baseline nor break-aware tests reject unit root null,2022-12-15,2022-03-30
+Brent_MA3,FALSE,FALSE,FALSE,FALSE,I(1),Space_3_Non_Stationary,Neither baseline nor break-aware tests reject unit root null,2021-05-20,2016-03-07

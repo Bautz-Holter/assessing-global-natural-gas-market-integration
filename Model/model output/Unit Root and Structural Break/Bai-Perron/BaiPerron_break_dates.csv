@@ -1,0 +1,22 @@
+Hub,Break_num,Break_date,Break_index,BP_specification,CI_lower,CI_upper,CI_width_days
+JKM,1,2018-08-15,643,log level on intercept and trend,2018-08-14,2018-08-16,2
+JKM,2,2020-03-06,1027,log level on intercept and trend,2020-03-05,2020-03-09,4
+JKM,3,2021-09-15,1405,log level on intercept and trend,2021-09-13,2021-09-16,3
+JKM,4,2023-03-31,1783,log level on intercept and trend,2023-03-28,2023-04-04,7
+NBP,1,2018-08-17,645,log level on intercept and trend,2018-08-16,2018-08-20,4
+NBP,2,2020-03-19,1036,log level on intercept and trend,2020-03-18,2020-03-20,2
+NBP,3,2021-09-28,1414,log level on intercept and trend,2021-09-27,2021-09-29,2
+NBP,4,2023-04-17,1792,log level on intercept and trend,2023-04-12,2023-04-19,7
+TTF,1,2018-08-23,649,log level on intercept and trend,2018-08-22,2018-08-24,2
+TTF,2,2020-08-03,1128,log level on intercept and trend,2020-07-31,2020-08-04,4
+TTF,3,2022-10-14,1669,log level on intercept and trend,2022-10-13,2022-10-17,4
+TTF,4,2024-05-01,2049,log level on intercept and trend,2024-04-30,2024-05-16,16
+HH,1,2017-07-21,378,log level on intercept and trend,2017-07-20,2017-08-07,18
+HH,2,2019-02-01,756,log level on intercept and trend,2019-01-31,2019-02-05,5
+HH,3,2020-08-11,1134,log level on intercept and trend,2020-08-10,2020-08-12,2
+HH,4,2022-12-23,1718,log level on intercept and trend,2022-12-22,2022-12-29,7
+HH,5,2024-09-19,2144,log level on intercept and trend,2024-09-18,2024-10-01,13
+Brent_MA3,1,2018-05-31,590,log level on intercept and trend,2018-05-30,2018-06-01,2
+Brent_MA3,2,2020-04-16,1054,log level on intercept and trend,2020-04-15,2020-04-17,2
+Brent_MA3,3,2022-03-21,1531,log level on intercept and trend,2022-03-18,2022-03-22,4
+Brent_MA3,4,2023-10-06,1909,log level on intercept and trend,2023-10-05,2023-10-16,11

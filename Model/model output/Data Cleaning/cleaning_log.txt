@@ -1,0 +1,66 @@
+Data Cleaning Log — 2026-06-24 14:33:52.550776
+
+--- Source files ---
+  Gas rows loaded:             2646
+  Brent spot rows loaded:      2666
+
+--- Model sample contract ---
+  Model start:                 2016-01-04
+  Model end:                   2026-03-31
+  Brent spot input start:      2015-10-01
+  Brent spot input end:        2026-03-31
+  Brent_MA3 window:            63 business days
+  First Brent_MA3 date:        2015-12-29
+
+--- Join diagnostics ---
+  Gas-only dates:              45
+  Spot-only dates:             0
+  Common gas-spot dates:       2601
+
+--- Brent conversion ---
+  Conversion factor:           5.80 mmBtu/bbl
+  Spot Brent mean USD/bbl:     67.560
+  Spot Brent mean USD/mmBtu:   11.648
+
+--- Integrity checks ---
+  Duplicate dates in gas file: PASS
+  Duplicate dates in spot file:PASS
+  Gas coercion NAs introduced: 0
+  Spot coercion NAs introduced:0
+
+--- Output sample sizes ---
+  Raw aligned panel:           2601
+  Core balanced panel:         2522
+  MA3 balanced panel:          2522
+  Dropped for core panel:      79
+  Dropped for MA3 panel:       79
+  Missing values in core:      0
+  Missing values in MA3:       0
+
+--- Missing values per column in raw aligned panel ---
+  Date           0 (0.0%)
+  JKM            67 (2.6%)
+  NBP            12 (0.5%)
+  TTF            4 (0.2%)
+  HH             58 (2.2%)
+  Brent_crude    0 (0.0%)
+  Brent_MA3      0 (0.0%)
+
+--- Pairwise sample loss ---
+  JKM-NBP: available=2523, core=2522, MA3=2522, lost_core=1, lost_MA3=1
+  JKM-TTF: available=2530, core=2522, MA3=2522, lost_core=8, lost_MA3=8
+  JKM-HH: available=2534, core=2522, MA3=2522, lost_core=12, lost_MA3=12
+  NBP-TTF: available=2588, core=2522, MA3=2522, lost_core=66, lost_MA3=66
+  NBP-HH: available=2532, core=2522, MA3=2522, lost_core=10, lost_MA3=10
+  TTF-HH: available=2539, core=2522, MA3=2522, lost_core=17, lost_MA3=17
+
+--- Output files ---
+  gas_clean_raw_aligned.csv       audit panel, all common gas-spot dates
+  gas_clean_balanced.csv          core estimation panel
+  gas_clean_ma3_balanced.csv      Brent spot moving-average estimation panel
+  gas_clean.csv                   alias of gas_clean_balanced.csv
+
+--- Downstream rule ---
+  Standard no-oil Kalman scripts should use gas_clean_balanced.csv.
+  Oil and dummy Kalman scripts using Brent_MA3 should use gas_clean_ma3_balanced.csv.
+  Brent_crude and Brent_MA3 are both based on brent_crude_spot.xls.

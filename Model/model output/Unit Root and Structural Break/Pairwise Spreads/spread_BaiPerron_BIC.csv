@@ -1,0 +1,7 @@
+Pair,Hub_A,Hub_B,Type,Breaks_BIC,BIC_value,BP_specification
+JKM - NBP,JKM,NBP,Gas-Gas,4,-3434.521366024153,spread on intercept only
+JKM - TTF,JKM,TTF,Gas-Gas,4,-2870.475872100328,spread on intercept only
+JKM - HH,JKM,HH,Gas-Gas,5,151.545237903155,spread on intercept only
+NBP - TTF,NBP,TTF,Gas-Gas,5,-4830.139421759616,spread on intercept only
+NBP - HH,NBP,HH,Gas-Gas,5,518.7524014669408,spread on intercept only
+TTF - HH,TTF,HH,Gas-Gas,5,224.68735417859156,spread on intercept only

@@ -1,0 +1,7 @@
+Pair,Hub_A,Hub_B,Specification,Breaks_BIC,BIC_value
+JKM - NBP,JKM,NBP,intercept only,4,-3434.521366024153
+JKM - TTF,JKM,TTF,intercept only,4,-2870.475872100328
+JKM - HH,JKM,HH,intercept only,5,151.545237903155
+NBP - TTF,NBP,TTF,intercept only,5,-4830.139421759616
+NBP - HH,NBP,HH,intercept only,5,518.7524014669408
+TTF - HH,TTF,HH,intercept only,5,224.68735417859156

@@ -1,0 +1,7 @@
+Pair,Beta_A_on_B,Beta_B_on_A,PO_A_on_B_reject,PO_B_on_A_reject,ADF_diag_A_on_B_reject_standard,ADF_diag_B_on_A_reject_standard,Conclusion_A_on_B,Conclusion_B_on_A,Both_PO_reject
+JKM - NBP,0.9162804434819314,1.0522523118826124,FALSE,FALSE,TRUE,TRUE,No cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE
+JKM - TTF,0.8393258532436637,1.1335320101230242,FALSE,FALSE,TRUE,TRUE,No cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE
+JKM - HH,1.462604089762151,0.4042775041148201,TRUE,FALSE,TRUE,TRUE,Cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE
+NBP - TTF,0.9107186733063792,1.071015998735779,FALSE,FALSE,TRUE,TRUE,No cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE
+NBP - HH,1.5490735059397598,0.3728493130861811,TRUE,FALSE,TRUE,TRUE,Cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE
+TTF - HH,1.7224852689964907,0.35253733782465757,TRUE,FALSE,TRUE,TRUE,Cointegration evidence by Phillips Ouliaris,No cointegration evidence by Phillips Ouliaris,FALSE

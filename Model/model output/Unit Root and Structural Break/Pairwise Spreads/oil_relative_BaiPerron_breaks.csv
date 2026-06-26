@@ -1,0 +1,18 @@
+Pair,Hub_A,Hub_B,Type,Break_num,Break_date,Break_index,BP_specification,CI_lower,CI_upper,CI_width_days
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,1,2017-08-15,395,relative price on intercept only,2017-06-28,2017-10-04,98
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,2,2019-02-27,773,relative price on intercept only,2019-02-25,2019-02-28,3
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,3,2020-10-15,1179,relative price on intercept only,2020-10-13,2020-10-16,3
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,4,2023-02-15,1752,relative price on intercept only,2023-02-14,2023-02-27,13
+JKM - Brent_MA3,JKM,Brent_MA3,Gas-Oil,5,2024-08-29,2130,relative price on intercept only,2024-08-22,2024-09-13,22
+NBP - Brent_MA3,NBP,Brent_MA3,Gas-Oil,1,2019-03-05,777,relative price on intercept only,2019-02-07,2019-03-06,27
+NBP - Brent_MA3,NBP,Brent_MA3,Gas-Oil,2,2021-06-21,1346,relative price on intercept only,2021-06-18,2021-06-23,5
+NBP - Brent_MA3,NBP,Brent_MA3,Gas-Oil,3,2023-02-07,1746,relative price on intercept only,2023-02-06,2023-02-10,4
+NBP - Brent_MA3,NBP,Brent_MA3,Gas-Oil,4,2024-09-19,2144,relative price on intercept only,2024-09-16,2024-09-26,10
+TTF - Brent_MA3,TTF,Brent_MA3,Gas-Oil,1,2019-03-07,779,relative price on intercept only,2019-02-07,2019-03-08,29
+TTF - Brent_MA3,TTF,Brent_MA3,Gas-Oil,2,2021-07-23,1369,relative price on intercept only,2021-07-22,2021-07-26,4
+TTF - Brent_MA3,TTF,Brent_MA3,Gas-Oil,3,2023-02-08,1747,relative price on intercept only,2023-02-07,2023-02-10,3
+TTF - Brent_MA3,TTF,Brent_MA3,Gas-Oil,4,2024-09-19,2144,relative price on intercept only,2024-09-12,2024-10-01,19
+HH - Brent_MA3,HH,Brent_MA3,Gas-Oil,1,2017-12-06,473,relative price on intercept only,2017-12-04,2017-12-07,3
+HH - Brent_MA3,HH,Brent_MA3,Gas-Oil,2,2020-04-24,1060,relative price on intercept only,2020-04-21,2020-04-28,7
+HH - Brent_MA3,HH,Brent_MA3,Gas-Oil,3,2023-01-12,1729,relative price on intercept only,2023-01-11,2023-01-13,2
+HH - Brent_MA3,HH,Brent_MA3,Gas-Oil,4,2024-09-19,2144,relative price on intercept only,2024-09-17,2024-09-23,6

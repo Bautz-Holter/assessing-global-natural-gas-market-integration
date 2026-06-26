@@ -1,0 +1,5 @@
+Window,Total_dates,Incomplete_core_rows,Incomplete_core_pct,Incomplete_MA3_rows,Incomplete_MA3_pct
+COVID (2020-02 to 2020-06),103,1,0.97,1,0.97
+Energy crisis (2021-09 to 2022-12),338,12,3.55,12,3.55
+Post-invasion (2022-02 to 2022-12),214,6,2.8,6,2.8
+Normalization (2023-01 to 2024-12),505,12,2.38,12,2.38

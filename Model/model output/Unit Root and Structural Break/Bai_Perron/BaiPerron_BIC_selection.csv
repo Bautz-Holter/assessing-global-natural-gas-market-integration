@@ -1,0 +1,6 @@
+Series,Specification,Breaks_BIC,BIC_value
+JKM,intercept + trend,4,-282.5161737213253
+NBP,intercept + trend,4,-356.8667528133552
+TTF,intercept + trend,4,-595.9799026678063
+HH,intercept + trend,5,-2247.171899194924
+Brent_MA3,intercept + trend,4,-6288.003657930995

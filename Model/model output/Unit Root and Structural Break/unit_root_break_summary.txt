@@ -1,0 +1,82 @@
+Unit Root & Structural Break Summary — 2026-06-24 14:50:01.203583
+
+Sample: 2016-01-04 to 2026-03-31 (2522 MA3-balanced observations)
+
+Baseline Series: JKM, NBP, TTF, HH, Brent_MA3 (log price levels and differences)
+Gas-Gas Spreads: JKM-NBP, JKM-TTF, JKM-HH, NBP-TTF, NBP-HH, TTF-HH (unity coeff)
+
+=== THREE-WAY CONSENSUS CLASSIFICATION (Log Price Levels) ===
+
+  JKM          I(1): Space_3_Non_Stationary
+         Neither baseline nor break-aware tests reject unit root null
+  NBP          I(1): Space_3_Non_Stationary
+         Neither baseline nor break-aware tests reject unit root null
+  TTF          I(1): Space_3_Non_Stationary
+         Neither baseline nor break-aware tests reject unit root null
+  HH           I(1): Space_3_Non_Stationary
+         Neither baseline nor break-aware tests reject unit root null
+  Brent_MA3    I(1): Space_3_Non_Stationary
+         Neither baseline nor break-aware tests reject unit root null
+
+=== MARGINAL BAI PERRON BREAK COUNTS (BIC, intercept + trend) ===
+
+  JKM          4 breaks (BIC = -282.52)
+  NBP          4 breaks (BIC = -356.87)
+  TTF          4 breaks (BIC = -595.98)
+  HH           5 breaks (BIC = -2247.17)
+  Brent_MA3    4 breaks (BIC = -6288.00)
+
+=== GAS-GAS SPREAD BAI PERRON BREAK COUNTS (BIC, intercept only) ===
+
+  JKM - NBP      4 breaks (BIC = -3434.52)
+  JKM - TTF      4 breaks (BIC = -2870.48)
+  JKM - HH       5 breaks (BIC = 151.55)
+  NBP - TTF      5 breaks (BIC = -4830.14)
+  NBP - HH       5 breaks (BIC = 518.75)
+  TTF - HH       5 breaks (BIC = 224.69)
+
+=== BREAK DATE ALIGNMENT (Spread vs Marginal) ===
+
+  JKM - NBP break 1 at 2019-04-25: Hub_A (JKM) nearest break -253 days away, Hub_B (NBP) nearest break -251 days away
+  JKM - NBP break 2 at 2021-02-12: Hub_A (JKM) nearest break 215 days away, Hub_B (NBP) nearest break 228 days away
+  JKM - NBP break 3 at 2022-12-21: Hub_A (JKM) nearest break 100 days away, Hub_B (NBP) nearest break 117 days away
+  JKM - NBP break 4 at 2024-09-19: Hub_A (JKM) nearest break -538 days away, Hub_B (NBP) nearest break -521 days away
+  JKM - TTF break 1 at 2017-08-04: Hub_A (JKM) nearest break 376 days away, Hub_B (TTF) nearest break 384 days away
+  JKM - TTF break 2 at 2019-02-15: Hub_A (JKM) nearest break -184 days away, Hub_B (TTF) nearest break -176 days away
+  JKM - TTF break 3 at 2021-12-07: Hub_A (JKM) nearest break -83 days away, Hub_B (TTF) nearest break 311 days away
+  JKM - TTF break 4 at 2023-06-29: Hub_A (JKM) nearest break -90 days away, Hub_B (TTF) nearest break -258 days away
+  JKM - HH break 1 at 2017-09-01: Hub_A (JKM) nearest break 348 days away, Hub_B (HH) nearest break -42 days away
+  JKM - HH break 2 at 2019-03-15: Hub_A (JKM) nearest break -212 days away, Hub_B (HH) nearest break -42 days away
+  JKM - HH break 3 at 2020-12-02: Hub_A (JKM) nearest break -271 days away, Hub_B (HH) nearest break -113 days away
+  JKM - HH break 4 at 2022-06-21: Hub_A (JKM) nearest break -279 days away, Hub_B (HH) nearest break 185 days away
+  JKM - HH break 5 at 2024-09-19: Hub_A (JKM) nearest break -538 days away, Hub_B (HH) nearest break 0 days away
+  NBP - TTF break 1 at 2017-07-21: Hub_A (NBP) nearest break 392 days away, Hub_B (TTF) nearest break 398 days away
+  NBP - TTF break 2 at 2019-02-01: Hub_A (NBP) nearest break -168 days away, Hub_B (TTF) nearest break -162 days away
+  NBP - TTF break 3 at 2020-08-11: Hub_A (NBP) nearest break -145 days away, Hub_B (TTF) nearest break -8 days away
+  NBP - TTF break 4 at 2022-02-28: Hub_A (NBP) nearest break -153 days away, Hub_B (TTF) nearest break 228 days away
+  NBP - TTF break 5 at 2023-09-15: Hub_A (NBP) nearest break -151 days away, Hub_B (TTF) nearest break 229 days away
+  NBP - HH break 1 at 2017-08-25: Hub_A (NBP) nearest break 357 days away, Hub_B (HH) nearest break -35 days away
+  NBP - HH break 2 at 2019-03-11: Hub_A (NBP) nearest break -206 days away, Hub_B (HH) nearest break -38 days away
+  NBP - HH break 3 at 2021-05-04: Hub_A (NBP) nearest break 147 days away, Hub_B (HH) nearest break -266 days away
+  NBP - HH break 4 at 2023-03-08: Hub_A (NBP) nearest break 40 days away, Hub_B (HH) nearest break -75 days away
+  NBP - HH break 5 at 2024-09-19: Hub_A (NBP) nearest break -521 days away, Hub_B (HH) nearest break 0 days away
+  TTF - HH break 1 at 2017-09-01: Hub_A (TTF) nearest break 356 days away, Hub_B (HH) nearest break -42 days away
+  TTF - HH break 2 at 2019-03-15: Hub_A (TTF) nearest break -204 days away, Hub_B (HH) nearest break -42 days away
+  TTF - HH break 3 at 2021-07-28: Hub_A (TTF) nearest break -359 days away, Hub_B (HH) nearest break -351 days away
+  TTF - HH break 4 at 2023-03-02: Hub_A (TTF) nearest break -139 days away, Hub_B (HH) nearest break -69 days away
+  TTF - HH break 5 at 2024-09-19: Hub_A (TTF) nearest break -141 days away, Hub_B (HH) nearest break 0 days away
+
+=== TECHNICAL NOTES ===
+  Log Price Levels: Unit root battery includes ADF (drift), Phillips-Perron, KPSS (level null),
+                    Zivot-Andrews (intercept model), and Zivot-Andrews (intercept+trend model).
+  Gas-Gas Spreads:   Unit root battery includes ADF (drift), Phillips-Perron, KPSS (level null),
+                     and Zivot-Andrews (intercept model only). Trend-break model omitted on spreads
+                     as deterministic trend breaks in differentials imply economically inconsistent
+                     long-run divergence.
+  Price Spec:        Bai-Perron, CUSUM, MOSUM on log levels use 'y ~ 1 + trend' specification.
+                     Descriptive interpretation: breaks are documented features of the series.
+  Spread Spec:       Bai-Perron, CUSUM, MOSUM on spreads use 'y ~ 1' specification (intercept only)
+                     reflecting constant-mean regime shifts in market integration.
+  Three-Way Space:   Space 1 (I(0)): baseline tests reject unit root
+                     Space 2 (TS with break): baseline fail to reject, break tests reject
+                     Space 3 (I(1)): no test rejects unit root null
