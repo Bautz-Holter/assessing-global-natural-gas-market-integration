@@ -14,6 +14,14 @@ This repository contains the full econometric analysis pipeline for studying nat
 
 The study uses time-varying parameter state-space models (Kalman filter) with Bai-Perron structural breaks to measure the extent and dynamics of cross-market price integration, and to assess the role of oil-indexed long-term contracts in cross-market price transmission.
 
+*Important*
+Gas price data from LSEG has not been uploaded publicly to this repo due to copyright concerns. The user needs to access the daily front-month futures for the Henry Hub, Title Transfer Facility, National Balancing Point and Japan-Korea Marker themselves.
+
+The gas price data should be uploaded to the root folder of the repo under the name "Gas prices" and follow an XLSX file format. See the repository structure below.
+The sheet should have the following columns: Date (Excel Date format), JKM (Excel General format), NBP (Excel General format), TTF (Excel General format) and HH (Excel General format.
+The data should span columns A-E and rows 1-2647, comprising 2647 date-aligned rows with the (if available) front-month future price for each natural gas hub expressed in US Dollars per MMBtu.
+This study has used three decimal precision for the prices.
+
 ---
 
 ## Repository structure
